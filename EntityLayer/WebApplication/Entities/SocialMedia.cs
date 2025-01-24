@@ -12,6 +12,6 @@ namespace EntityLayer.WebApplication.Entities
         public string? Linkedin { get; set; }
         public string? Facebook { get; set; }
         public string? Instagram { get; set; }
-        public AboutUs AboutUs { get; set; } = null!;
+        public About About { get; set; } = null!;
     }
 }

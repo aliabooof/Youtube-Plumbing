@@ -7,14 +7,15 @@ using System.Threading.Tasks;
 
 namespace EntityLayer.WebApplication.Entities
 {
-    public class AboutUs : BaseEntity
+    public class About : BaseEntity
     {
         
         public string Header { get; set; } = null!;
         public string Description { get; set; } = null!;
-        public string Clients { get; set; } = null!;
-        public string HoursOfsupport { get; set; } = null!;
-        public string HardWorkers { get; set; } = null!;
+        public int Clients { get; set; }
+        public int Projects { get; set; }
+        public int HoursOfsupport { get; set; } 
+        public int HardWorkers { get; set; } 
         public string FileName { get; set; } = null!;
         public string FileType { get; set; } = null!;
 
